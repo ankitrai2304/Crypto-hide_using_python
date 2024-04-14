@@ -38,7 +38,7 @@ def save():
     secret.save ("hidden.png")
 
 #icon
-image_icon =PhotoImage(file = "C:/NORMAL USE/dj")
+image_icon =PhotoImage(file = r"C:\NORMAL USE\py\my_venv\steganography\icon")
 root.iconphoto(False,image_icon)
 
 #logo
