@@ -4,6 +4,7 @@ import tkinter as tk
 from PIL import Image , ImageTk
 import os 
 from stegano import lsb
+#from stegano import stegano
 
 root = tk.Tk()
 root.title("steganography - hide a secret text message in an image ")
@@ -38,18 +39,18 @@ def save():
     secret.save ("hidden.png")
 
 #icon
-image_icon =PhotoImage(file = r"C:\NORMAL USE\py\my_venv\steganography\icon")
+image_icon =PhotoImage(file = r"C:/NORMAL USE/py/my_venv/steganography/icon/icon.PNG")
 root.iconphoto(False,image_icon)
 
 #logo
-logo=PhotoImage(file = "C:/NORMAL USE/11")
+logo=PhotoImage(file = r"C:/NORMAL USE/py/my_venv/steganography/icon/icon.PNG")
 Label(root,image=logo,bg = "#2f4155").place(x=10,y=0)
 Label(root,text="CYBER SCIENCE " , bg = "#2d4155", fg = "white",font="arial 25 bold").place(x=100,y=20)
 
 #first frame 
-f =Frame( root, bd = 3 ,bg = "black " , width = 340 , height = 280 , relief= GROOVE)
+f =Frame( root, bd = 3 ,bg = "#2f4155 " , width = 340 , height = 280 , relief= GROOVE)
 f.place(x=10,y=80)
-lbl = Label(f,bg = "black")
+lbl = Label(f,bg = "#2f4155")
 lbl.place(x=40,y=10)
 
 #second frame
