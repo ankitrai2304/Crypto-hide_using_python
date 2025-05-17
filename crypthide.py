@@ -27,8 +27,10 @@ st.markdown("""
     .stApp {
         background-color: #111827;
         color: #E5E7EB;
-            padding: 20px;
+        padding: 20px;
         border-radius: 0.5rem;
+        border-radius: 0.5rem;
+        padding: 20px;
         border: 1px solid #374151;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         margin: 20px;`
