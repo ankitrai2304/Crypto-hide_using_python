@@ -134,7 +134,7 @@ st.markdown("""
 def generate_key(password, salt=None):
     """Generate a Fernet key from a password."""
     if salt is None:
-        salt = b'steganography_salt'  # Default salt
+        salt = b'steganography_salt'  
     
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
