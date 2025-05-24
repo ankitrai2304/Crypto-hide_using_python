@@ -1,4 +1,4 @@
-🕵️ StegoCrypt: Secure Steganography
+🕵️ Crypto-hide
 A modern, user-friendly steganography application that allows you to hide secret messages inside images with military-grade encryption. Built with Streamlit and featuring a sleek dark theme interface.
 Show Image Show Image Show Image
 ✨ Features
@@ -39,8 +39,8 @@ pip package manager
 Setup Instructions
 
 Clone the repository
-bashgit clone https://github.com/yourusername/stegocrypt.git
-cd stegocrypt
+bashgit clone(https://github.com/ankitrai2304/Crypto-hide_using_python.git)
+cd Crypto-hide
 
 Install dependencies
 bashpip install -r requirements.txt
@@ -131,48 +131,6 @@ Security Warnings
 Steganography provides security through obscurity
 Always use additional encryption for sensitive data
 Do not rely solely on steganography for critical security
-
-🧪 Example Usage
-python# Command line interface (if you want to extend)
-from stegocrypt import StegoCrypt
-
-# Initialize
-stego = StegoCrypt()
-
-# Hide message
-stego.hide_message(
-    image_path="carrier.png",
-    message="Hello, World!",
-    password="supersecret123",
-    output_path="hidden.png"
-)
-
-# Reveal message
-message = stego.reveal_message(
-    image_path="hidden.png",
-    password="supersecret123"
-)
-print(message)  # "Hello, World!"
-🔍 Troubleshooting
-Common Issues
-"Image too small to encode the data"
-
-Solution: Use a larger image or shorter message
-
-"Decryption failed"
-
-Check password spelling and case sensitivity
-Ensure image hasn't been compressed or modified
-
-"No hidden message found"
-
-Verify you're using the correct stego image
-Check if image was saved in lossy format
-
-Performance Issues
-
-Large images may take time to process
-Consider resizing extremely large images
 
 🤝 Contributing
 Contributions are welcome! Please follow these guidelines:
