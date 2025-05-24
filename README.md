@@ -185,7 +185,7 @@ Open a Pull Request
 
 Development Setup
 bash# Clone your fork
-git clone https://github.com/yourusername/stegocrypt.git
+git clone https://github.com/ankitrai2304/stegocrypt.git
 
 # Create virtual environment
 python -m venv venv
